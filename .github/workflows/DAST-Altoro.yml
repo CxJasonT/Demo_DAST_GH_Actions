@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CxDAST_Altoro_web
+name: CxDAST_JT_web
 
 # Controls when the workflow will run
 on:
@@ -33,7 +33,7 @@ jobs:
         command: "web"
         config: ${{ github.workspace }}/dast-config/Altoro_web_test.yml
         base_url: "https://deu.ast.checkmarx.net"
-        environment_id: "f7e3c8bc-9a0a-4b15-9b2c-ce71f2949b0b"
+        environment_id: "2cb5792b-926c-4eba-b7fe-7d0085f6cf7c"
         fail_on: high
         verbose: true
         log_level: debug
