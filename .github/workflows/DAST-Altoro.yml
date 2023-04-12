@@ -31,8 +31,8 @@ jobs:
         CX_APIKEY: ${{ secrets.CX_ONE_API_KEY }}
       with:
         command: "web"
-        config: ${{ github.workspace }}/security_tweets.yaml
-        base_url: "http://testhtml5.vulnweb.com"
-        environment_id: "f4b85c89-a720-4c21-8379-8a9535e98fde"
+        config: ${{ github.workspace }}/gin_juice.yaml
+        base_url: "https://ginandjuice.shop/"
+        environment_id: "0d5ad93e-e5e4-4197-9ae2-aece3c166836"
         verbose: true
         log_level: debug
